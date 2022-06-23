@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-width: 400px;
+
+}
+button{
+    background-color: #5f9341;
+    color: white;
+    outline: none;
+    border: 1px solid #5f9341;
+    padding: .5em 1em;
+    font-size: .9rem;
+    border-radius: 6px;
+    position: relative;
+    margin: .5em 0;
+    font-weight: bold;
+}
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
+    outline: none;
+    border: 1px solid #5f9341;
+    padding: .5em 1em;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    position: relative;
+    margin: .5em 0;
+    font-weight: bold;
+}
+input{
+    padding: .4em .8em;
+    font-size: 1rem;
+   width: 100%;
+   border: 1px solid #5f9341;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+     top: 2px;
+     right: 2px;
+
+}
+
+ul{
+    padding-left: 0;
+    margin-top: 1em;
+}
+li{
+    padding: .2em .4em .2em .1em;
+    list-style: none;
+    margin-top: .5em ;
+    background-color: white;  
+}
+
+li a{
+    color: #5f9341;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: .3em;
+    word-wrap: break-word;
+}
+ul li i{
+    float : right;
+}
+
+ul li i:hover{
+    color: red;
+    cursor: pointer;
+}
